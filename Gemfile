@@ -17,7 +17,7 @@ gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '>= 3.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'ruby', '2.3.4'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2.2'
 gem 'jquery-rails', '4.3.1'
@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.6.4'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug',  '9.0.6', platform: :mri
   # Adds support for Capybara system testing and selenium driver
